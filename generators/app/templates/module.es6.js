@@ -4,9 +4,9 @@ import Module from '../Module';
 class <%= module %> extends Module{
   constructor(){
     super()
-    this.name = <%= module %>;
+    this.name = '<%= module %>';
     this.options = {
-        text: <%= module %>
+        text: '<%= module %>'
     };
   }
   start(mc){
